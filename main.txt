@@ -1,4 +1,46 @@
 
+a = ("a", "b", "c", "d", "e", "f", "g", "h","i","j","k","l","m")
+print(a[::-1])
+#output:('m', 'l', 'k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a')
+print(a[2:5])
+#output:('c', 'd', 'e')
+print(a[-1:5:-1])
+#output:('m', 'l', 'k', 'j', 'i', 'h', 'g')
+print(a[-6::6])
+#output:('h',)
+print(a[-9:-5])
+#output:('h', 'g', 'f', 'e')
+print(a[0::2])
+#output:('a', 'c', 'e', 'g', 'i', 'k', 'm')
+print(a[::-2])
+#output:('m', 'k', 'i', 'g', 'e', 'c', 'a')
+print(a[::-3])
+#output:('m', 'j', 'g', 'd')
+
+str="Characters"
+print(str[::-1])
+#output:sretcarahC
+str="Characters"
+print(str[-1:-4])
+#output:ter
+print(str[3:8])
+#output:racte
+print(str[3:-1])
+#output:rces
+
+
+text1="my name is john and i m from london"
+words=text1.split()
+print(words)
+#o/p=['my', 'name', 'is', 'john', 'and', 'i', 'm','from', 'london']
+text2 = "abc$xyz$123"
+a=text2.split('$')
+print(a)
+#o/p=['abc', 'xyz', '123']
+
+
+
+
 """""
 Q. Write a program to find biggest of given 3 numbers from the commad prompt?
 n1=(input("enter the number 1 : "))
